@@ -17,6 +17,7 @@
 		9A5E2A482701770100626043 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E2A472701770100626043 /* MovieModel.swift */; };
 		9A5E2A4B27017C0100626043 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E2A4A27017C0100626043 /* MovieViewModel.swift */; };
 		9A5E2A4F270189B100626043 /* loadSongs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E2A4E270189B100626043 /* loadSongs.gif */; };
+		9A5E2A5127018BA600626043 /* mvvm.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E2A5027018BA600626043 /* mvvm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9A5E2A472701770100626043 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		9A5E2A4A27017C0100626043 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		9A5E2A4E270189B100626043 /* loadSongs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadSongs.gif; sourceTree = "<group>"; };
+		9A5E2A5027018BA600626043 /* mvvm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mvvm.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,7 @@
 		9A5E2A2C2701767000626043 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				9A5E2A4D270189A200626043 /* Gifs */,
+				9A5E2A4D270189A200626043 /* Resources */,
 				9A5E2A46270176D000626043 /* Model */,
 				9A5E2A4927017BE800626043 /* ViewModel */,
 				9A5E2A4C27017CF600626043 /* Controller */,
@@ -111,12 +113,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		9A5E2A4D270189A200626043 /* Gifs */ = {
+		9A5E2A4D270189A200626043 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				9A5E2A4E270189B100626043 /* loadSongs.gif */,
+				9A5E2A5027018BA600626043 /* mvvm.png */,
 			);
-			path = Gifs;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A5E2A3A2701767300626043 /* LaunchScreen.storyboard in Resources */,
+				9A5E2A5127018BA600626043 /* mvvm.png in Resources */,
 				9A5E2A372701767300626043 /* Assets.xcassets in Resources */,
 				9A5E2A352701767000626043 /* Main.storyboard in Resources */,
 				9A5E2A4F270189B100626043 /* loadSongs.gif in Resources */,
